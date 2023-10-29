@@ -1,7 +1,7 @@
 # Laboratorium 3
 
 ## Linki:
-[PDF Zadania](Lab%203/lab2-student.pdf) | [PDF Odpowiedzi](Lab%203/lab2-admin.pdf) | [Potrzebne pliki](Lab%203/Pliki-2.zip)
+[PDF Zadania](/Lab%203/lab2-student.pdf) | [PDF Odpowiedzi](/Lab%203/lab2-admin.pdf) | [Potrzebne pliki](/Lab%203/Pliki-2.zip)
 
 ## Teoria:
 
@@ -11,8 +11,13 @@ Szyfrowanie powinno zawsze dać to samo wyjście z danego wejścia przy tym samy
 - łatwo otrzymać tekst zaszyfrowany z tekstu jawnego
 - łatwo otrzymać tekst jawny z tekstu zaszyfrowanego
 - do szyfrowania używa się pewnego klucza za pomocą którego potem następuje odszyfrowanie
-- hello --> (klucz) --> asdas
+- szyfrowanie zawsze określonej długości
+- mała zmiana tekstu jawnego powoduje dużą zmianę tekstu zaszyfrowanego
+
+```
+hello --> (klucz) --> asdas
 asdas --> (klucz) --> hello
+```
 
 ## Zadania:
 

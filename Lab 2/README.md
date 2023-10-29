@@ -1,7 +1,7 @@
 # Laboratorium 2
 
 ## Linki:
-[PDF Zadania](Lab%201/lab1-student.pdf) | [PDF Odpowiedzi](Lab%201/lab1-admin.pdf) | [Potrzebne pliki](Lab%202/Pliki-1.zip)
+[PDF Zadania](/Lab%201/lab1-student.pdf) | [PDF Odpowiedzi](/Lab%201/lab1-admin.pdf) | [Potrzebne pliki](/Lab%202/Pliki-1.zip)
 
 ## Teoria:
 
@@ -41,7 +41,7 @@ while read line; do echo -n "$line" | openssl dgst -sha3-512; done < z15.txt
 
 ### 1.6
 ```
-john hash16.txt     <- czasem zadziala
+john hash16.txt     <- czasem zadziała
 
 john --format=raw-md5 hash16.txt
 

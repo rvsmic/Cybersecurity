@@ -1,32 +1,44 @@
 # Laboratorium 4
 
 ## Linki:
-[PDF Zadania](Lab%204/lab3-student.pdf) | PDF Odpowiedzi | [Potrzebne pliki](Lab%204/Pliki-3.zip)
+[PDF Zadania](/Lab%204/lab3-student.pdf) | PDF Odpowiedzi | [Potrzebne pliki](/Lab%204/Pliki-3.zip)
 
 ## Teoria:
 
 ### Szyfrowanie symetryczne:
-hello --> alg. szyfr, KLUCZ --> asdas
-asdas --> alg. szyfr, KLUCZ --> hello
+```
+hello --> (alg. szyfr, KLUCZ) --> asdas
+asdas --> (alg. szyfr, KLUCZ) --> hello
+```
 
 ### Szyfrowanie asymetryczne:
-hello --> alg. szyfr, KLUCZ_PUB --> asdas
-asdas --> alg. szyfr, KLUCZ_PRYW --> hello
+```
+hello --> (alg. szyfr, KLUCZ_PUBLICZNY) --> asdas
+asdas --> (alg. szyfr,  KLUCZ_PRYWATNY) --> hello
+```
 
 #### Klucze - publiczny i prywatny:
-OSOBA A: K_PUB_A, K_PRYW_A
-OSOBA B: K_PUB_B, K_PRYW_B
+```
+OSOBA A: K_PUBL_A, K_PRYW_A
+OSOBA B: K_PUBL_B, K_PRYW_B
+```
 
 #### Przesłanie kluczy:
-OSOBA A --> wysyla K_PUB_A --> OSOBA B
-OSOBA B --> wysyla K_PUB_B --> OSOBA A
+```
+OSOBA A --> wysyła K_PUBL_A --> OSOBA B
+OSOBA B --> wysyła K_PUBL_B --> OSOBA A
+```
 
 #### Przeslanie wiadomości:
-osoba A --> alg(wiad_1, K_PUB_B) --> osoba B -> odszyfrowuje z K_PRYW_B
-osoba B --> alg(wiad_2, K_PUB_A) --> osoba A -> odszyfrowuje z K_PRYW_A
+```
+osoba A --> alg(wiad_1, K_PUBL_B) --> osoba B ~> odszyfrowuje z K_PRYW_B
+osoba B --> alg(wiad_2, K_PUBL_A) --> osoba A ~> odszyfrowuje z K_PRYW_A
+```
 
 #### Podpisy wiadomości:
-osoba A --> alg(wiad_1, K_PRYW_A <-podpis) --> osoba B
+```
+osoba A --> alg(wiad_1, K_PRYW_A <~podpis) --> osoba B
+```
 
 ### Nie da się odszyfrować wiadomości jeżeli posiadamy tylko klucz publiczny  - potrzebny jest prywatny klucz!
 

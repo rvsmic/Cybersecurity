@@ -1,7 +1,7 @@
 # Laboratorium 1
 
 ## Linki:
-[PDF Zadania](Lab%201/lab1-student.pdf) | [PDF Odpowiedzi](Lab%201/lab1-admin.pdf) | [Potrzebne pliki](Lab%202/Pliki-1.zip)
+[PDF Zadania](/Lab%201/lab1-student.pdf) | [PDF Odpowiedzi](/Lab%201/lab1-admin.pdf) | [Potrzebne pliki](/Lab%202/Pliki-1.zip)
 
 ## Teoria:
 
@@ -11,9 +11,13 @@ Hash powinien zawsze dać to samo wyjście z danego wejścia
 - łatwo otrzymać hash z tekstu jawnego
 - niemożliwe otrzymać tekst jawny z hasha
 - hash zawsze określonej długości
-- hello --> (openssl, md5) --> xasda
+- mała zmiana tekstu jawnego powoduje dużą zmianę hasha
+
+```
+hello --> (openssl,   md5) --> xasda
 hello --> (generator, md5) --> xasda
-Hello --> (openssl, md5) --> dfgdf
+Hello --> (openssl,   md5) --> dfgdf
+```
 
 ### Przy hashowaniu trzeba uważac na znak nowej linii na końcu wiadomości!
 
