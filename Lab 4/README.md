@@ -1,7 +1,7 @@
 # Laboratorium 4
 
 ## Linki:
-[PDF Zadania](/Lab%204/lab3-student.pdf) | PDF Odpowiedzi | [Potrzebne pliki](/Lab%204/Pliki-3.zip)
+[PDF Zadania](/Lab%204/lab3-student.pdf) | [PDF Odpowiedzi](/Lab%204/lab3-admin.pdf) | [Potrzebne pliki](/Lab%204/Pliki-3.zip)
 
 ## Teoria:
 
